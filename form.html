@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sign up</h1>
+    <form action="/login" method="post">
+    <input type="text" name="regnum" placeholder="regnumber" required><br><br></input>
+    <input type="text" name="fullname" placeholder="Full Name" required><br><br></input>
+    <input type="password" name="pass" placeholder="password" required><br><br></input>
+    <input type="text" name="mob" placeholder="Mob Number" minlength="10" maxlength="10" required><br><br></input>
+    <button type="submit" name="sub">Register</button>
+    </form><br><br><br><br>
+
+
+    <h1>Login</h1>
+    <form action="/login" method="post">
+        <input type="text" name="regnum" placeholder="regnumber" required><br><br></input>
+        <input type="password" name="pass" placeholder="Password" required><br><br></input>
+        <button type="submit" name="sub">Login</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
